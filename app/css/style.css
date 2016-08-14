@@ -733,6 +733,9 @@ header .header--spisok-date .spisok-date--lines-m .block-line:last-child li {
 .block--months {
   margin-top: 50px;
 }
+.block--months .content {
+  overflow: hidden;
+}
 .block--months .active-bar {
   width: 100%;
   text-align: center;
@@ -788,12 +791,11 @@ header .header--spisok-date .spisok-date--lines-m .block-line:last-child li {
   position: relative;
 }
 .block--months .block---rcord-sl .slide {
-  position: absolute;
+  position: relative;
   display: block;
-  width: 100%;
+  width: 1170px;
+  float: left;
   height: 100%;
-  top: 0px;
-  left: 0px;
 }
 .block--months .block---rcord-sl .slide .line {
   float: left;

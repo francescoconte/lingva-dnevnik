@@ -2,6 +2,8 @@ doctype html
 html
   head
     include include/head.jade
+        script(type="text/javascript", src="js/jquery.min.js")
+        script(type="text/javascript", src="js/any.js")
   body
     div.wrapper
       section.topbar
@@ -84,10 +86,11 @@ html
             .active-bar
                 h2 Record Book Date:
                     .nav-months
-                        a.left
-                        span.title-months#title-months september
-                        a.right
-            .block---rcord-sl
+                        a.navs.left#left
+                        span.title-months#title-months September
+                        a.navs.right#right
+            .block---rcord-sl#slider
+                // 1 слайд 
                 .slide         
                     .line
                         .week
@@ -95,7 +98,111 @@ html
                             .week--title
                                 span.span-l Homework
                                 span.span-r Mark
-                            .week--line 1 два три
+                            .week--line 1 слайд
+                            .week--line Опять двойка!!!
+                            .week--line Опять двойка!!!
+                            .week--line Опять двойка!!!
+                            .week--line Опять двойка!!!
+                            .week--line Опять двойка!!!                    
+                            .week--line-big T.N.: Опять двойка!!!                         
+                        .week
+                            .title--week Date: sept. 4st
+                            .week--title
+                                span.span-l Homework
+                                span.span-r Mark
+                            .week--line Опять двойка!!!
+                            .week--line Опять двойка!!!
+                            .week--line Опять двойка!!!
+                            .week--line Опять двойка!!!
+                            .week--line Опять двойка!!!
+                            .week--line Опять двойка!!!
+                            .week--line-big T.N.: Опять двойка!!!  
+                    .line
+                        .week
+                            .title--week Date: sept. 4st
+                            .week--title
+                                span.span-l Homework
+                                span.span-r Mark
+                            .week--line Опять двойка!!!
+                            .week--line Опять двойка!!!
+                            .week--line Опять двойка!!!
+                            .week--line Опять двойка!!!
+                            .week--line Опять двойка!!!
+                            .week--line Опять двойка!!!               
+                            .week--line-big T.N.: Опять двойка!!!                         
+                        .week
+                            .title--week Date: sept. 4st
+                            .week--title
+                                span.span-l Homework
+                                span.span-r Mark
+                            .week--line Опять двойка!!!
+                            .week--line Опять двойка!!!
+                            .week--line Опять двойка!!!
+                            .week--line Опять двойка!!!
+                            .week--line Опять двойка!!!
+                            .week--line Опять двойка!!!
+                            .week--line-big T.N.: Опять двойка!!!
+                // 2 слайд
+                .slide         
+                    .line
+                        .week
+                            .title--week Date: sept. 4st
+                            .week--title
+                                span.span-l Homework
+                                span.span-r Mark
+                            .week--line Ужу лучше
+                            .week--line Ужу лучше
+                            .week--line Ужу лучше
+                            .week--line Ужу лучше
+                            .week--line Ужу лучше
+                            .week--line Ужу лучше                       
+                            .week--line-big T.N.: Ужу лучше                         
+                        .week
+                            .title--week Date: sept. 4st
+                            .week--title
+                                span.span-l Homework
+                                span.span-r Mark
+                            .week--line Ужу лучше
+                            .week--line Ужу лучше
+                            .week--line Ужу лучше
+                            .week--line Ужу лучше
+                            .week--line Ужу лучше
+                            .week--line Ужу лучше
+                            .week--line-big T.N.: Ужу лучше
+                    .line
+                        .week
+                            .title--week Date: sept. 4st
+                            .week--title
+                                span.span-l Homework
+                                span.span-r Mark
+                            .week--line Ужу лучше
+                            .week--line Ужу лучше
+                            .week--line Ужу лучше
+                            .week--line Ужу лучше
+                            .week--line Ужу лучше
+                            .week--line Ужу лучше                 
+                            .week--line-big T.N.: Ужу лучше                         
+                        .week
+                            .title--week Date: sept. 4st
+                            .week--title
+                                span.span-l Homework
+                                span.span-r Mark
+                            .week--line Ужу лучше
+                            .week--line Ужу лучше
+                            .week--line Ужу лучше
+                            .week--line Ужу лучше
+                            .week--line Ужу лучше
+                            .week--line Ужу лучше
+                            .week--line-big T.N.: Ужу лучше
+                // 2 слайд
+                .slide         
+                    .line
+                        .week
+                            .title--week Date: sept. 4st
+                            .week--title
+                                span.span-l Homework
+                                span.span-r Mark
+                            .week--line 3 слайд
                             .week--line 1 два три
                             .week--line 1 два три
                             .week--line 1 два три
@@ -139,6 +246,9 @@ html
                             .week--line 1 два три
                             .week--line 1 два три
                             .week--line-big T.N.: я не знаю что здесь должно быть
+                            
+                            
+                            
        section.assessment-table
         .content
             h3 Assessment table
